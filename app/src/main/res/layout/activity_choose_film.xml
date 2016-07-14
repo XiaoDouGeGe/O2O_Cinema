@@ -1,0 +1,233 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+     
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="center"
+        android:text="O2O影院服务系统"
+        android:textColor="#FF83FA"
+        android:textSize="30sp" 
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="15dp"
+        android:text="最新大片"
+        android:textSize="18sp"  />
+    
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+
+            <GridView
+                android:id="@+id/gv_film"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:numColumns="auto_fit"
+                android:stretchMode="spacingWidthUniform" >
+            </GridView>
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+    <TextView 
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#a000"
+    	android:layout_below="@+id/gv_film"
+        />
+    
+    <TextView 
+        android:id="@+id/selectedCinemaName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="20dp"
+        android:text="xxx影院"
+        android:textSize="24sp"  />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:clickable="true">
+        <TextView 
+            android:id="@+id/tv_filmName1"
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.7" 
+        	android:textSize="16sp"
+        	android:gravity="center"/>
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.8"
+        	android:text= "今天09:00开始"
+        	android:textSize="16sp" />
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.5"
+        	android:text= "时长2小时"
+        	android:textSize="16sp" /> 
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:clickable="true">
+        <TextView 
+            android:id="@+id/tv_filmName2"
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.7" 
+        	android:textSize="16sp"
+        	android:gravity="center"/>
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.8"
+        	android:text= "今天14:00开始"
+        	android:textSize="16sp" />
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.5"
+        	android:text= "时长2小时"
+        	android:textSize="16sp" /> 
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:clickable="true">
+        <TextView 
+            android:id="@+id/tv_filmName3"
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.7" 
+        	android:textSize="16sp"
+        	android:gravity="center"/>
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.8"
+        	android:text= "今天19:00开始"
+        	android:textSize="16sp" />
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.5"
+        	android:text= "时长2小时"
+        	android:textSize="16sp" /> 
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:clickable="true">
+        <TextView 
+            android:id="@+id/tv_filmName4"
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.7" 
+        	android:textSize="16sp"
+        	android:gravity="center"/>
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.8"
+        	android:text= "明天09:00开始"
+        	android:textSize="16sp" />
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.5"
+        	android:text= "时长2小时"
+        	android:textSize="16sp" /> 
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:clickable="true">
+        <TextView 
+            android:id="@+id/tv_filmName5"
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.7" 
+        	android:textSize="16sp"
+        	android:gravity="center"/>
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.8"
+        	android:text= "明天14:00开始"
+        	android:textSize="16sp" />
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.5"
+        	android:text= "时长2小时"
+        	android:textSize="16sp" />
+           
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:clickable="true">
+        <TextView 
+            android:id="@+id/tv_filmName6"
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.7" 
+        	android:textSize="16sp"
+        	android:gravity="center"/>
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.8"
+        	android:text= "明天19:00开始"
+        	android:textSize="16sp" />
+        <TextView 
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.5"
+        	android:text= "时长2小时"
+        	android:textSize="16sp" />
+        
+    </LinearLayout>
+    
+</LinearLayout>

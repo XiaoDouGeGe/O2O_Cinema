@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center" >
+
+    <Button
+        android:id="@+id/btn_showUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="个人中心" />
+    
+    <Button
+        android:id="@+id/selectBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="买票" />
+
+    <Button
+        android:id="@+id/selectRefund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退票" />
+    
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出" />
+
+</LinearLayout>

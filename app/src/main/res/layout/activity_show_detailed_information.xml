@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginTop="15dp"
+	        android:text="海报"
+	        android:textSize="18sp"  />
+	    
+	    <ImageView 
+	        android:id="@+id/iv_bigPic"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/zuo"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="3dp"
+	        android:layout_marginTop="15dp"
+	        android:text="简介"
+	        android:textSize="18sp"  />
+	    
+	    <TextView 
+	        android:id="@+id/tv_introduction"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="这是简介"
+	        />
+	
+	    <Button 
+	        android:id="@+id/btn_xuanzuo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="选座"
+	        />
+	</LinearLayout>
+
+</ScrollView>

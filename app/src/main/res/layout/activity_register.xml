@@ -1,0 +1,73 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,3">
+    <TableRow>
+        <TextView />
+        <TextView
+            android:text="注册账号："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            />
+        <EditText
+            android:id="@+id/reg_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            android:minWidth="220px"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="20px">
+        <TextView />
+        <TextView
+            android:text="注册密码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            />
+        <EditText
+            android:id="@+id/reg_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="220px"
+            android:textSize="24px"
+            android:inputType="textPassword"/>
+        <TextView />
+     </TableRow>
+     <TableRow android:layout_marginTop="20px">
+        <TextView />
+        <TextView
+            android:text="重复密码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            />
+        <EditText
+            android:id="@+id/reg_pwd_twice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="220px"
+            android:textSize="24px"
+            android:inputType="textPassword"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="20px">
+        <TextView />
+
+        <Button
+            android:id="@+id/reg_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交" 
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/backToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+
+    </TableRow>
+</TableLayout>

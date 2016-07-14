@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 	<Button
+        android:id="@+id/btn_rebackToSelect2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        />
+    
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:layout_marginLeft="60dp"
+        android:text="付款"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="65dp"
+        android:text="电影名"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_pay"
+        android:layout_alignLeft="@+id/tv_film"
+        android:layout_marginBottom="24dp"
+        android:text="座位号"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_showTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_seat"
+        android:layout_alignLeft="@+id/tv_seat"
+        android:layout_marginBottom="59dp"
+        android:text="播放时间为"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="30sp" />
+
+</RelativeLayout>
